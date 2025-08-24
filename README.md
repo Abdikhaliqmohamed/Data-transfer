@@ -77,16 +77,19 @@ Dashboaded bør være visuelt overksueligt, og kunne illustrere informationerne 
 3. Scorecards
 4. Horizontal bar chart
 
+![alt text](Assets/images/Dashboard-Mockup.png)
 
 ## Værktøjer
 
-1. Mockup AI: Design af dashboardets wireframes
-2. Excel: Indledende dataudforskning
-3. SQL Server: Datatransformation, rensning og test
-4. Power BI: Visualisering via interaktive dashboards
-5. GitHub: Dokumentation og versionsstyring
+Colons can be used to align columns.
 
-![alt text](Assets/images/Dashboard-Mockup.png)
+| Værktøj       | Formål     |
+| ------------- |:-------------:|
+|  Mockup     | Design af dashboardets wireframes|
+| Excel    | Indledende dataudforskning |
+| SQL | Datatransformation, rensning og test   |
+| Power BI |  Visualisering via interaktive dashboards |
+| GitHub | Dokumentation og versionsstyring |
 
 
 # Udvikling
