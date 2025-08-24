@@ -86,6 +86,12 @@ Dashboaded bør være visuelt overksueligt, og kunne illustrere informationerne 
 4. Power BI: Visualisering via interaktive dashboards
 5. GitHub: Dokumentation og versionsstyring
 
+![alt text](Assets/images/Dashboard-Mockup.png)
+
+
+# Udvikling
+
+
    
 
 
