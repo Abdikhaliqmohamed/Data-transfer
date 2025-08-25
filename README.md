@@ -122,12 +122,15 @@ Formålet er at sikre et klart og konsistent datasæt. Krav til rensede data, er
 
 Med følgende MYSQL syntakster kan vi realisere det:
 
-![alt text](Række-tæller.png)
+![alt text](Assets/images/Række-tæller.png)
+
+![alt text](Assets/images/Kollone-tjekker.png)
 
 
+![alt text](Assets/images/Duplet-tjekker.png)
 
    
-
+![alt text](Assets/images/Data-type-tester.png)
 
 
 
