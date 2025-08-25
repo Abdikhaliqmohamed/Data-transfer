@@ -124,16 +124,31 @@ Med følgende MYSQL syntakster kan vi realisere det:
 
 ![alt text](Assets/images/Række-tæller.png)
 
+
 ![alt text](Assets/images/Kollone-tjekker.png)
 
 
-![alt text](Assets/images/Duplet-tjekker.png)
-
-   
 ![alt text](Assets/images/Data-type-tester.png)
 
 
 
+![alt text](Assets/images/Duplet-tjekker.png)
+
+
+#### Trin til datarensning
+- Fjern irrelevante kolonner
+- Udtræk kanalnavne fra første kolonne
+- Omdøb kolonner med aliaser
+- Transformér data
+
+### Transformering af data 
+![alt text](Assets/images/transformering-sql.png)
+
+### Opstilling af MYSQL View
+
+![alt text](Assets/images/sql-view.png)
+
+# Data kvalitets tjek
 
 
 
