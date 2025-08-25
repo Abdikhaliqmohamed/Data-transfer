@@ -9,7 +9,7 @@
 - [Design](#Design)
   - [Mock up](#Mock-up)
   - [Værktøjer](#Værktøjer)
-- [Udviklling](#Udvikling)
+- [Arbejdsproces](#Arbejdsproces)
   - [Kode](#Kode) 
   - [Data udtrækning](#Data-udtrækning)
   - [Data rensning](#Data-rensning)
@@ -92,7 +92,38 @@ Colons can be used to align columns.
 | GitHub | Dokumentation og versionsstyring |
 
 
-# Udvikling
+# Arbejdsproces
+
+Tilgangen til at immødekomme formålet er som følgende:
+
+1. Indsamling af data
+2. Udforskning og første analyse i Excel
+3. Indlæsning i SQL Server
+4. Datatransformation og rensning med SQL
+5. Datatest og validering (datatyper, og dubletter)
+6. Visualisering i Power BI
+7. Opstille fund og generingen af indsigter
+8. Udarbejdelse af dokumentation
+9. Udgive resultater på GitHub
+
+## Dataudforskning 
+
+- Vi har mindst fire centrale kolonner, der giver de nødvendige informationer (abonnenter, visninger, videoer, kanalnavn).
+- Kanalnavne skal udtrækkes fra et ID-felt, hvor data er adskilt af “@”.
+- Datasættet indeholder flere kolonner end nødvendigt, og unødvendige data bør fjernes.
+
+## Datarensning 
+
+Formålet er at sikre et klart og konsistent datasæt. Krav til rensede data, er som følgende:
+
+1. Kun relevante kolonner beholdes
+2. Konsistente og korrekte datatyper
+3. Overskuelig struktur
+
+Med følgende MYSQL syntakster kan vi realisere det:
+
+![alt text](Række-tæller.png)
+
 
 
    
