@@ -15,7 +15,6 @@
   - [Data rensning](#Data-rensning)
   - [Data transformation](#Data-transformation)
   - [Opstillingen af MYSQL](#Opstillingen-af-MYSQL)
-- [Data kvalitets tjek](#Data-kvalitets-tjek)
 - [Visualisering](#Visualisering)
 - [Power BI og DAX måling](#Power-BI-og-DAX-måling)
 - [Analyse](#Analyse)
@@ -148,17 +147,83 @@ Med følgende MYSQL syntakster kan vi realisere det:
 
 ![alt text](Assets/images/sql-view.png)
 
-# Data kvalitets tjek
+# Visualisering 
+
+Power BI dashboardet viser DK's top 10 YouTubers i 2025:
+![alt text](Assets/images/Dashboard.png)
+
+# Power BI og DAX måling
+
+DAX-metrics defineret i Power BI inkluderer:
+
+Totale abonnenter (i mio.)
+![alt text](Assets/images/Total-abonnenter.png)
+Totale visninger (i mio.)
+![alt text](Assets/images/Total-views.png)
+Totale videoer
+![alt text](Assets/images/Total-videoer.png)
+Gennemsnitlige visninger pr. video (i mio.)
+![alt text](Assets/images/Total-videoer.png)
+Engagementrate pr. abonnent
+![alt text](Assets/images/Sub-engage-rate.png)
+
+### få oversat målingerne korrek, dt er ikke sammenhængende!!!!
+
+# Analyse
+
+For at imødekomme chefen for marketingsafdelingens behov, skal følgende spørgesmål besvares:
+
+Nøglespørgsmål:
+Hvem er de 10 YouTubere med flest abonnenter?
+
+| Nr.  | Kanal navne       | Antal abonnenter     |
+| ----  | ------------- |:-------------:|
+| 1.  |  Subway Surfers    | 9720000
+| 2.  | Unisport    | 5290000 |
+| 3.  | MagmaMusen | MagmaMusen |
+| 4.  | Kiloo Games |  3130000 |
+| 5.  | AlumiTube| 2100000|
+| 6.  | Slikhaar TV - Mens hair | 2080000   |
+| 7.  | Jacob's Piano |  1920000 |
+| 8.  | กินไปไทยหรั่ง | กินไปไทยหรั่ง |
+| 9.  | Glitch King|  1730000 |
+| 10.  | SsethTzeentach | 1570000|
+
+Hvilke 3 kanaler har uploadet flest videoer?
+
+| Nr.  | Kanal navne       | Antal videoer     |
+| ----  | ------------- |:-------------:|
+| 1.  |  Hyper Verse • MMD    | 12648  |
+| 2.  | HLTVorg | 5089 |
+| 3.  | Unisport | 3951 |
 
 
+Hvilke 3 kanaler har flest visninger?
+
+| Nr.  | Kanal navne       | Antal videoer     |
+| ----  | ------------- |:-------------:|
+| 1.  |  Subway Surfers  | 1670487976  |
+| 2.  | Unisport | 1557580702 |
+| 3.  | MagmaMusen | 1259217870 |
 
 
+Hvilke 3 kanaler har højest gennemsnitlige visninger pr. video?
+
+| Nr.  | Kanal navne       |  gennemsnitlige visninger (Millioner)    |
+| ----  | ------------- |:-------------:|
+| 1.  |  Peter Asschenfeldt and the Colonels  | 4,5  |
+| 2.  | SsethTzeentach | 3,5 |
+| 3.  | Jacob's Piano | 2,3 |
 
 
-<img width="499" height="135" alt="image" src="https://github.com/user-attachments/assets/b29a6cb6-fb63-40b0-af28-b761715fe3c2" />
+Hvilke 3 kanaler har højest abonnent-engagement pr. uploadet video?
 
 
-
+| Nr.  | Kanal navne       |  gennemsnitlige visninger (tusinde)    |
+| ----  | ------------- |:-------------:|
+| 1.  |  Peter Asschenfeldt and the Colonels  | 16.447 |
+| 2.  | SsethTzeentach | 15.544|
+| 3.  | Bertram - Craft and Wilderness | 11.650|
 
 
   
