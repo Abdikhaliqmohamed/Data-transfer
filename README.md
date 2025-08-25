@@ -219,12 +219,18 @@ Hvilke 3 kanaler har højest gennemsnitlige visninger pr. video?
 Hvilke 3 kanaler har højest abonnent-engagement pr. uploadet video?
 
 
-| Nr.  | Kanal navne       |  gennemsnitlige visninger (tusinde)    |
+| Nr.  | Kanal navne       |  abonnent-engagement (tusinde)    |
 | ----  | ------------- |:-------------:|
 | 1.  |  Peter Asschenfeldt and the Colonels  | 16.447 |
 | 2.  | SsethTzeentach | 15.544|
 | 3.  | Bertram - Craft and Wilderness | 11.650|
 
+
+## Validering
+
+![alt text](Assets/images/SQL-syntaks.png)
+
+![alt text](Assets/images/SQL-RESULTAT.png)
 
   
 
