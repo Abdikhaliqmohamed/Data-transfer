@@ -188,7 +188,7 @@ Hvem er de 10 YouTubere med flest abonnenter?
 | 7.  | Jacob's Piano |  1920000 |
 | 8.  | กินไปไทยหรั่ง | กินไปไทยหรั่ง |
 | 9.  | Glitch King|  1730000 |
-| 10.  | SsethTzeentach | 1570000|
+| 10. | SsethTzeentach | 1570000|
 
 Hvilke 3 kanaler har uploadet flest videoer?
 
@@ -228,16 +228,18 @@ Hvilke 3 kanaler har højest abonnent-engagement pr. uploadet video?
 
 
 ## Validering
+
 ##### MYSQL syntaks
 
 ![alt text](Assets/images/SQL-syntaks.png)
 
+
 # Youtubere med flest abonnenter
    
-#####  Beregningsgennemgang:
+####  Beregningsgennemgang:
 
-Kampagneidé = produktplacering
-NoCopyrightSounds
+
+Subway Surfers
 Gennemsnitlige visninger pr. video = 6,92 mio.
 Produktpris = 5 USD
 Potentielt solgte enheder pr. video = 6,92 mio. × 2 % konverteringsrate = 138.400 enheder
@@ -260,8 +262,12 @@ Potentielt solgte enheder pr. video = 11,15 mio. × 2 % konverteringsrate = 223.
 Potentiel omsætning pr. video = 223.000 × 5 USD = 1.115.000 USD
 Kampagneomkostning (engangsgebyr) = 50.000 USD
 Nettofortjeneste = 1.115.000 – 50.000 = 1.065.000 USD
+
 Bedste valg i kategorien: Dan Rhodes
-Udfald
+
+## Resultat
+![alt text](Assets/images/SQL-RESULTAT.png)
+
 
 # Analyse – fund
 
