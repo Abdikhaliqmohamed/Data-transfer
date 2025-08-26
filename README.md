@@ -232,64 +232,60 @@ Hvilke 3 kanaler har højest abonnent-engagement pr. uploadet video?
 
 ![alt text](Assets/images/SQL-syntaks.png)
 
+# Youtubere med flest abonnenter
+   
+#####  Beregningsgennemgang:
 
-1. Youtubers with the most subscribers
-Calculation breakdown
-Campaign idea = product placement
-
+Kampagneidé = produktplacering
 NoCopyrightSounds
-Average views per video = 6.92 million
-Product cost = $5
-Potential units sold per video = 6.92 million x 2% conversion rate = 138,400 units sold
-Potential revenue per video = 138,400 x $5 = $692,000
-Campaign cost (one-time fee) = $50,000
-Net profit = $692,000 - $50,000 = $642,000
+Gennemsnitlige visninger pr. video = 6,92 mio.
+Produktpris = 5 USD
+Potentielt solgte enheder pr. video = 6,92 mio. × 2 % konverteringsrate = 138.400 enheder
+Potentiel omsætning pr. video = 138.400 × 5 USD = 692.000 USD
+Kampagneomkostning (engangsgebyr) = 50.000 USD
+Nettofortjeneste = 692.000 – 50.000 = 642.000 USD
+
 b. DanTDM
+Gennemsnitlige visninger pr. video = 5,34 mio.
+Produktpris = 5 USD
+Potentielt solgte enheder pr. video = 5,34 mio. × 2 % konverteringsrate = 106.800 enheder
+Potentiel omsætning pr. video = 106.800 × 5 USD = 534.000 USD
+Kampagneomkostning (engangsgebyr) = 50.000 USD
+Nettofortjeneste = 534.000 – 50.000 = 484.000 USD
 
-Average views per video = 5.34 million
-Product cost = $5
-Potential units sold per video = 5.34 million x 2% conversion rate = 106,800 units sold
-Potential revenue per video = 106,800 x $5 = $534,000
-Campaign cost (one-time fee) = $50,000
-Net profit = $534,000 - $50,000 = $484,000
 c. Dan Rhodes
-
-Average views per video = 11.15 million
-Product cost = $5
-Potential units sold per video = 11.15 million x 2% conversion rate = 223,000 units sold
-Potential revenue per video = 223,000 x $5 = $1,115,000
-Campaign cost (one-time fee) = $50,000
-Net profit = $1,115,000 - $50,000 = $1,065,000
-Best option from category: Dan Rhodes
-
-#### Udfald
-![alt text](Assets/images/SQL-RESULTAT.png)
+Gennemsnitlige visninger pr. video = 11,15 mio.
+Produktpris = 5 USD
+Potentielt solgte enheder pr. video = 11,15 mio. × 2 % konverteringsrate = 223.000 enheder
+Potentiel omsætning pr. video = 223.000 × 5 USD = 1.115.000 USD
+Kampagneomkostning (engangsgebyr) = 50.000 USD
+Nettofortjeneste = 1.115.000 – 50.000 = 1.065.000 USD
+Bedste valg i kategorien: Dan Rhodes
+Udfald
 
 # Analyse – fund
 
-De vigtigste observationer:
+### De vigtigste observationer:
+
 Top 10 kanaler efter abonnenter: NoCopyrightSounds, DanTDM, Dan Rhodes, Miss Katy, Mister Max, KSI, Jelly, Dua Lipa, Sidemen, Ali-A.
 Flest uploadede videoer: GRM Daily, Manchester City, Yogscast.
 Flest visninger: DanTDM, Dan Rhodes, Mister Max.
 Højeste gennemsnit pr. video: Mark Ronson, Jessie J, Dua Lipa.
 Bedste forhold visninger/abonnent: GRM Daily, Nickelodeon, Disney Junior UK.
 Højeste engagementrate pr. upload: Mark Ronson, Jessie J, Dua Lipa.
-
-
-# Konklusioner 
-
+Konklusioner
 Dan Rhodes er den mest attraktive samarbejdspartner, da han kombinerer høj gennemsnitlig rækkevidde med et stort abonnenttal.
 Mister Max giver maksimal rækkevidde, men DanTDM og Dan Rhodes vurderes mere bæredygtige på lang sigt.
 NoCopyrightSounds har høj ROI pr. video og er værd at overveje.
 GRM Daily, Manchester City og Yogscast publicerer mange videoer, men ROI er lav og kræver nøje budgetovervejelse.
-Forventet ROI
+Forventet ROI:
 Dan Rhodes: ca. 1.065.000 USD i nettofortjeneste pr. video
 Mister Max: ca. 1.276.000 USD pr. video
 DanTDM: 484.000 USD pr. video (ved produktplacering) eller 404.000 USD (ved influencer-kontrakt)
 NoCopyrightSounds: 642.000 USD pr. video
 
-## Handlingsplan
 
+# Handlingsplan
 Starte dialog med Dan Rhodes’ team om langsigtet partnerskab.
 Forhandle kontrakter inden for budgetrammerne.
 Lancere kampagner og måle performance op mod KPI’er.
