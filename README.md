@@ -28,24 +28,30 @@
 
 # Formål 
 
-Formanden for Mærsks marketingsafdeling er interreseret i finde de 10 mest populære danske Youtubers i 2025. Med grundlag på at vide hvem, som egner sig bedst til at køre en succesful kampagne med.
+Formanden for Mærsks marketingsafdeling er interreseret i finde de 10 mest populære danske Youtubers i 2025. Med grundlag på at vide hvem, som egner sig bedst til at indgå en succesful kampagne med.
 
 ## User Story 
 
-Som formand for Mærsks marketingsafdeling står Shannon med opgaven til at finde den bedste YouTube-kanal, som vil være bedst at køre kampagner. For at frembringe en god ROI. Du er blevet hyret som en freelancer til at indsamle, og identificere Danmarks største Youtubere, baseret på antal visningerne, antal abonnenter, og video opladede.<img width="499" height="73" alt="image" src="https://github.com/user-attachments/assets/5e5501a2-2c95-4f3d-bfb4-9047be600473" />
+Som formand for Mærsks marketingsafdeling står Shannon med at finde den bedste YouTube-kanal, som vil være bedst at køre kampagner med. For at frembringe en god ROI. Du er blevet hyret som en ekstern konsulent til at indsamle, og identificere Danmarks største Youtubere, baseret på:
+
+- Indsamle data om danske YouTubers.
+- Identificere de største kanaler baseret på abonnenter, visninger og antal videoer.
+- Bygge et dashboard, der giver indsigt i nøgletal og gør det let at filtrere og analysere resultaterne.
+
 ### Hvordan realisereres dette?
 
-Ved at opstille en dashboard som giver indsigt til i de 10 mest populære Youtubers i Danmark - Dashboaded burde bestå af følgende:
+Dashboaded burde bestå af følgende:
 
 -	En liste af de største Youtuberes baseret på antal visninger, antal abonnenter, og video opladede.
 -	Illustrere nøgle metrics (kanal-navn, abonnenter, videoer, seer tal, engagement ratioer)
--	Være brugervenlig, og let at kunne filtrere
+-	Være brugervenlig, og mulighed for at kunne filtrere
 -	Bestå af de nyeste data
 
 
 
 # Data Kilder
-Som nævnt tideligere skal følgende data indsamles:
+
+Følgende data indsamles fra hjemmesiden Kaggel:
 
 - Kanal navn
 - Abonnenenter
@@ -57,21 +63,21 @@ Som nævnt tideligere skal følgende data indsamles:
 
 # Design 
 
-## Krav for Dashboard
+## Krav til Dashboard
 
-For at dashboaded succesfuldt kan bedst kan besvare formålet, skal følgende definere:
+For at dashboaded succesfuldt kan opfylde formålet, skal følgende defineres:
 
 1. Hvem er de 10 mest populære Youtubers i DK?
-2. Hvilke 3 youtubers har oplaoded flest videoer? 
+2. Hvilke 3 Youtubers har oplaoded flest videoer? 
 3. Hvilke 3 har flest antal visninger?
 4. Hvilke 3 har højst gennemsnitlige antal visninger pr. video?
-5. Hvilke 3 har det bedste forhold mellem visninger og abonnenter?
-6. Hvilke 3 har den højeste engegementrate pr. video?
+5. Hvilke 3 har bedst forhold mellem visninger og abonnenter?
+6. Hvilke 3 har den højeste engagementrate pr. video?
 
 
-## Dashboard mockup og visualieringer
+## Mockup og visualiering
 
-Dashboaded bør være visuelt overksueligt, og kunne illustrere informationerne anstændigt. Følgende visuliserings redskaber kan anvendes:
+Dashboaded er designet til at være visuelt overksueligt, og illustrere informationerne anstændigt. Følgende visuliserings-redskaber anvendes:
 
 1. Table
 2. Treemap
@@ -81,8 +87,6 @@ Dashboaded bør være visuelt overksueligt, og kunne illustrere informationerne 
 ![alt text](Assets/images/Dashboard-Mockup.png)
 
 ## Værktøjer
-
-Colons can be used to align columns.
 
 | Værktøj       | Formål     |
 | ------------- |:-------------:|
@@ -95,17 +99,16 @@ Colons can be used to align columns.
 
 # Arbejdsproces
 
-Tilgangen til at immødekomme formålet er som følgende:
+Fremgangsmåden for at realisere projektet:
 
 1. Indsamling af data
-2. Udforskning og første analyse i Excel
+2. Dataanalyse i Excel
 3. Indlæsning i SQL Server
 4. Datatransformation og rensning med SQL
 5. Datatest og validering (datatyper, og dubletter)
 6. Visualisering i Power BI
 7. Opstille fund og generingen af indsigter
-8. Udarbejdelse af dokumentation
-9. Udgive resultater på GitHub
+
 
 ## Dataudforskning 
 
@@ -137,12 +140,14 @@ Med følgende MYSQL syntakster kan vi realisere det:
 
 
 #### Trin til datarensning
+
 - Fjern irrelevante kolonner
 - Udtræk kanalnavne fra første kolonne
 - Omdøb kolonner med aliaser
 - Transformér data
 
 ### Transformering af data 
+
 ![alt text](Assets/images/transformering-sql.png)
 
 ### Opstilling af MYSQL View
@@ -159,14 +164,23 @@ Power BI dashboardet viser DK's top 10 YouTubers i 2025:
 DAX-metrics defineret i Power BI inkluderer:
 
 Totale abonnenter (i mio.)
+
 ![alt text](Assets/images/Total-abonnenter.png)
+
 Totale visninger (i mio.)
+
 ![alt text](Assets/images/Total-views.png)
+
 Totale videoer
+
 ![alt text](Assets/images/Total-videoer.png)
+
 Gennemsnitlige visninger pr. video (i mio.)
+
 ![alt text](Assets/images/Total-videoer.png)
+
 Engagementrate pr. abonnent
+
 ![alt text](Assets/images/Sub-engage-rate.png)
 
 ### få oversat målingerne korrek, dt er ikke sammenhængende!!!!
@@ -176,6 +190,7 @@ Engagementrate pr. abonnent
 For at imødekomme chefen for marketingsafdelingens behov, skal følgende spørgesmål besvares:
 
 Nøglespørgsmål:
+
 Hvem er de 10 YouTubere med flest abonnenter?
 
 | Nr.  | Kanal navne       | Antal abonnenter     |
@@ -235,12 +250,13 @@ Hvilke 3 kanaler har højest abonnent-engagement pr. uploadet video?
 ![alt text](Assets/images/SQL-syntaks.png)
 
 
-# Youtubere med flest abonnenter
+# Youtuberes med flest abonnenter
    
 ####  Beregningsgennemgang:
 
 
-Subway Surfers
+A. Subway Surfers
+
 Gennemsnitlige visninger pr. video = 890000.
 Produktpris = 5 USD
 Potentielt solgte enheder pr. video = 890000 × 2 % konverteringsrate =  17.800 enheder
@@ -249,6 +265,7 @@ Kampagneomkostning (engangsgebyr) = 50.000 USD
 Nettofortjeneste = 89.000 – 50.000 = 894.000 USD
 
 b. Unisport
+
 Gennemsnitlige visninger pr. video = Unisport.
 Produktpris = 5 USD
 Potentielt solgte enheder pr. video = 390000. × 2 % konverteringsrate =  7.800 enheder
@@ -265,9 +282,10 @@ Potentiel omsætning pr. video = 38600 × 5 USD =   193.000 USD
 Kampagneomkostning (engangsgebyr) = 50.000 USD
 Nettofortjeneste = 193.000 – 50.000 = 143.000 USD
 
-Bedste valg = MagmaMusen
+MagmaMusen vurderes som bedste samarbejdspartner.
 
 ## Resultat
+
 ![alt text](Assets/images/SQL-RESULTAT.png)
 
 
@@ -275,14 +293,14 @@ Bedste valg = MagmaMusen
 
 ### De vigtigste observationer:
 
-MagmaMusen er den mest attraktive samarbejdspartner, da han kombinerer høj gennemsnitlig rækkevidde med et stort abonnenttal.
+MagmaMusen er den mest attraktive samarbejdspartner, da han kombinerer høj gennemsnitlig rækkevidde med et stort abonnenttal. Og leverer et stærkt ROI-potentiale.
 
 
 # Handlingsplan
-Starte dialog med MagmaMusens team om langsigtet partnerskab.
-Forhandle kontrakter inden for budgetrammerne.
-Lancere kampagner og måle performance op mod KPI’er.
-Evaluere resultater, indsamle feedback og optimere kampagnerne.
+1. Starte dialog med MagmaMusens team om langsigtet partnerskab.
+2. Forhandle kontrakter inden for budgetrammerne.
+3. Lancere kampagner og måle performance op mod KPI’er.
+4. Evaluere resultater, indsamle feedback, og optimere kampagnerne.
 
   
 
