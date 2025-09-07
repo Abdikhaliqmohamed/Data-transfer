@@ -183,7 +183,7 @@ Engagementrate pr. abonnent
 
 ![alt text](Assets/images/Sub-engage-rate.png)
 
-### få oversat målingerne korrek, dt er ikke sammenhængende!!!!
+
 
 # Analyse
 
