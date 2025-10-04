@@ -1,4 +1,4 @@
-# Data portefølje - Fra Exel til PowerBI
+# Data portefølje - Fra REST API til PowerBI
 
 ![alt text](Assets/images/cover.png)
 
