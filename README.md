@@ -25,7 +25,7 @@
 - [Konklusion](#Konklusion)
   - [Handlingsplan](#Handlingsplan) 
 
-# YouTube Data Analytics: Identifikation af Top Indflydelsesrige i Danmark
+# YouTube Data Analytics: Identifikation af Indflydelsesrige Youtubers i Danmark
 
 ## 🚀 Overskuelig oversigt
 
@@ -49,7 +49,7 @@ Mærsk's marketingafdeling stod over for udfordringen med at:
 
 Jeg designede og implementerede en komplet data pipeline:
 *   **Data Extraction & Transformation:** SQL-baseret datarensning og transformation af rå YouTube-data.
-*   **Avancerede Metrikker:** Udviklede nøgleperformance-indikatorer (engagement rate, gennemsnitlige visninger pr. video).
+*   **Avancerede Metrikker:** Udviklede performance-indikatorer (engagement rate, gennemsnitlige visninger pr. video).
 *   **Interaktivt Dashboard:** Power BI-visualisering der muliggør dynamisk filtrering og sammenligning.
 *   **ROI-Analyse:** Simulering af potentielt udbytte baseret på konverteringsrater og produktpriser.
 
