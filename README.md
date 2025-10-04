@@ -1,6 +1,6 @@
 # Data portefølje - Fra Exel til PowerBI
 
-![alt text](Assets/images/exel-to-power.png)
+![alt text](Assets/images/cover.png)
 
 ## Litteraturliste
 
