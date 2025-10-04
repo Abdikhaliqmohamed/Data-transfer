@@ -4,34 +4,32 @@
 
 ## Litteraturliste
 
-- [Formål](#Formål)
-- [Data Kilder](#Data-kilder)
+- [Oversigt](#Oversigt)
+- [Forretningsproblemet](#Forretningsproblemet)
 - [Design](#Design)
-  - [Mock up](#Mock-up)
-  - [Værktøjer](#Værktøjer)
-- [Arbejdsproces](#Arbejdsproces)
-  - [Kode](#Kode) 
-  - [Data udtrækning](#Data-udtrækning)
-  - [Data rensning](#Data-rensning)
-  - [Data transformation](#Data-transformation)
-  - [Opstillingen af MYSQL](#Opstillingen-af-MYSQL)
-- [Visualisering](#Visualisering)
+- [Succes for brugeren betyder](#Succes-for-brugeren-betyder)
+- [Løsningen](#Løsningen)
+- [Teknisk Implementering](#Teknisk-Implementering)
+- [Mockup og visualisering](#Mockup-og-visualisering)
+- [Dashboard](#Dashboard)
+- [Datarensning](#Datarensning)
+- [Transformering af data](#Transformering-af-data)
 - [Power BI og DAX måling](#Power-BI-og-DAX-måling)
-- [Analyse](#Analyse)
-  - [Fund](#Fund)
-  - [Validering](#Vildering)
-  - [Udforskning](#Udforskning)
-- [Anbefalinger](#Anbefalinger)
-- [Konklusion](#Konklusion)
-  - [Handlingsplan](#Handlingsplan) 
+- [Resultater & Værdi](#Resultater-&-Værdi)
+- [Analytiske Fund](#Analytiske-Fund)
+- [Validering](#Vildering)
+- [Beregningsgennemgang](#Beregningsgennemgang)
+- [Resultat](#Resultat)
+- [Analyse – fund](#Analyse–fund)
+- [Anbefalet Handlingsplan](#Anbefalet-Handlingsplan) 
 
 # YouTube Data Analytics: Identifikation af Indflydelsesrige Youtubers i Danmark
 
-## 🚀 Overskuelig oversigt
+##  **Oversigt**
 
 En komplet dataanalyse-pipeline der ekstraherer, transformerer og visualiserer YouTube-data for at identificere Danmarks mest indflydelsesrige indholdsproducenter. Projektet leverer et interaktivt Power BI-dashboard der giver marketingsafdelinger datadrevne indsigter til partnerudvælgelse og ROI-optimering.
 
-## 🎯 **Forretningsproblemet**
+## **Forretningsproblemet**
 
 Mærsk's marketingafdeling stod over for udfordringen med at:
 *   Identificere de mest effektive YouTube-samarbejdspartnere i det danske marked.
@@ -45,7 +43,7 @@ Mærsk's marketingafdeling stod over for udfordringen med at:
 •	Visualisering af udgifter fordelt på afdelingerne 
 •	En scenarieanalyse til at understøtte ledelsens beslutninger
 
-## ⚙️ **Løsningen**
+##  **Løsningen**
 
 Jeg designede og implementerede en komplet data pipeline:
 *   **Data Extraction & Transformation:** SQL-baseret datarensning og transformation af rå YouTube-data.
@@ -53,7 +51,7 @@ Jeg designede og implementerede en komplet data pipeline:
 *   **Interaktivt Dashboard:** Power BI-visualisering der muliggør dynamisk filtrering og sammenligning.
 *   **ROI-Analyse:** Simulering af potentielt udbytte baseret på konverteringsrater og produktpriser.
 
-## 🛠️ **Teknisk Implementering**
+##  **Teknisk Implementering**
 
 *   **Datakilder:** Kaggle YouTube-dataset
 *   **Datarensning & Transformation:** MySQL (fjernelse af duplikater, datatypevalidering, view-oprettelse)
@@ -61,9 +59,9 @@ Jeg designede og implementerede en komplet data pipeline:
 *   **Versionskontrol:** GitHub
 
 
-## Mockup og visualiering
+## **Mockup og visualisering**
 
-Dashboaded er designet til at være visuelt overksueligt, og illustrere informationerne anstændigt. Følgende visuliserings-redskaber anvendes:
+Dashboaded er designet til at være visuelt overskueligt, og illustrere informationerne anstændigt. Følgende visuliserings-redskaber anvendes:
 
 1. Table
 2. Treemap
@@ -79,7 +77,7 @@ Dashboaded er designet til at være visuelt overksueligt, og illustrere informat
 
 
 
-## Datarensning 
+## **Datarensning**
 
 Formålet er at sikre et klart og konsistent datasæt. Krav til rensede data, er som følgende:
 
@@ -102,23 +100,16 @@ Med følgende MYSQL syntakster kan vi realisere det:
 ![alt text](Assets/images/Duplet-tjekker.png)
 
 
-#### Trin til datarensning
-
-- Fjern irrelevante kolonner
-- Udtræk kanalnavne fra første kolonne
-- Omdøb kolonner med aliaser
-- Transformér data
-
-### Transformering af data 
+### **Transformering af data**
 
 ![alt text](Assets/images/transformering-sql.png)
 
-### Opstilling af MYSQL View
+### **Opstilling af MYSQL View**
 
 ![alt text](Assets/images/sql-view.png)
 
 
-# Power BI og DAX måling
+# **Power BI og DAX måling**
 
 DAX-metrics defineret i Power BI inkluderer:
 
@@ -142,7 +133,7 @@ Engagementrate pr. abonnent
 
 ![alt text](Assets/images/Sub-engage-rate.png)
 
-## 🏆 **Resultater & Værdi**
+##  **Resultater & Værdi**
 
 *   **Effektivitetsforbedring:** **Reducerer analysetiden for partneridentifikation fra dage til minutter** gennem automatiserede rapporter og filtreringsmuligheder.
 *   **ROI-Optimering:** Identificerede **MagmaMusen som den mest profitable partner** med et estimeret nettoafkast på $143.000 pr. kampagne - en **286% return on investment**.
@@ -151,7 +142,7 @@ Engagementrate pr. abonnent
 
 
 
-## 📊 **Analytiske Fund**
+##  **Analytiske Fund**
 
 ### **Top 3 Anbefalede Partnere Baseret på ROI-Analyse:**
 
@@ -163,7 +154,7 @@ Engagementrate pr. abonnent
 
 
 
-## Validering
+## **Validering**
 
 ##### MYSQL syntaks
 
@@ -172,7 +163,7 @@ Engagementrate pr. abonnent
 
 # Youtuberes med flest abonnenter
    
-####  Beregningsgennemgang:
+####  **Beregningsgennemgang:**
 
 
 A. Subway Surfers
@@ -209,12 +200,12 @@ MagmaMusen vurderes som bedste samarbejdspartner.
 ![alt text](Assets/images/SQL-RESULTAT.png)
 
 
-# Analyse – fund
+# **Analyse – fund**
 
 ### **Vigtigste Indsigt:**
 Større abonnenttal garanterer ikke højere ROI. **Engagement-kvalitet** (visninger pr. video) viste sig at være den mest kritiske faktor for kampagnesucces.
 
-## 📈 **Anbefalet Handlingsplan**
+##  **Anbefalet Handlingsplan**
 
 Baseret på analysen anbefales følgende til Mærsk:
 
@@ -223,7 +214,7 @@ Baseret på analysen anbefales følgende til Mærsk:
 3.  **Etablér Løbende Monitoring:** Brug dashboardet til kvartalsvurdering af eksisterende partnerskaber.
 4.  **Udvid Til Andre Markeder:** Anvend den samme analytiske tilgang på svenske og norske YouTube-markeder.
 
-  
+*[← Tilbage til Portfolio](https://github.com/Abdikhaliqmohamed?tab=repositories)*
 
 
 
